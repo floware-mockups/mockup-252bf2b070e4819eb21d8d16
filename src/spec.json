@@ -1,0 +1,196 @@
+{
+  "title": "Gestione richieste di certificati anagrafici",
+  "description": "Prototipo navigabile per registrare e seguire richieste inventate di certificati di residenza, stato di famiglia e nascita, ricevute allo sportello o tramite posta elettronica. I dati sono dimostrativi.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Quadro delle richieste e dei tempi di evasione. La tabella consente di filtrare per tipo e stato.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "12"
+        },
+        {
+          "label": "Tempo medio di evasione",
+          "value": "1,8 giorni"
+        },
+        {
+          "label": "Da preparare",
+          "value": "7"
+        },
+        {
+          "label": "Pronte",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Richiedente",
+        "Tipo di certificato",
+        "Data richiesta",
+        "Canale",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo Riva",
+          "Residenza",
+          "12/04/2025",
+          "Sportello",
+          "Da preparare"
+        ],
+        [
+          "Vela Neri",
+          "Stato di famiglia",
+          "12/04/2025",
+          "Posta elettronica",
+          "Pronto"
+        ],
+        [
+          "Nubi Serra",
+          "Nascita",
+          "11/04/2025",
+          "Sportello",
+          "Da preparare"
+        ],
+        [
+          "Timo Lari",
+          "Residenza",
+          "10/04/2025",
+          "Posta elettronica",
+          "Consegnato"
+        ],
+        [
+          "Mira Soli",
+          "Stato di famiglia",
+          "10/04/2025",
+          "Sportello",
+          "Pronto"
+        ],
+        [
+          "Ari Vela",
+          "Nascita",
+          "09/04/2025",
+          "Posta elettronica",
+          "Consegnato"
+        ]
+      ],
+      "form": [
+        "Richiedente",
+        "Tipo di certificato",
+        "Data richiesta",
+        "Canale",
+        "Stato"
+      ]
+    },
+    {
+      "id": "richieste",
+      "title": "Elenco richieste",
+      "description": "Consulta e filtra le richieste registrate per tipo di certificato e stato.",
+      "metrics": [
+        {
+          "label": "Totale richieste",
+          "value": "24"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Richiedente",
+        "Tipo di certificato",
+        "Data richiesta",
+        "Canale",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo Riva",
+          "Residenza",
+          "12/04/2025",
+          "Sportello",
+          "Da preparare"
+        ],
+        [
+          "Vela Neri",
+          "Stato di famiglia",
+          "12/04/2025",
+          "Posta elettronica",
+          "Pronto"
+        ],
+        [
+          "Nubi Serra",
+          "Nascita",
+          "11/04/2025",
+          "Sportello",
+          "Da preparare"
+        ],
+        [
+          "Timo Lari",
+          "Residenza",
+          "10/04/2025",
+          "Posta elettronica",
+          "Consegnato"
+        ],
+        [
+          "Mira Soli",
+          "Stato di famiglia",
+          "10/04/2025",
+          "Sportello",
+          "Pronto"
+        ],
+        [
+          "Ari Vela",
+          "Nascita",
+          "09/04/2025",
+          "Posta elettronica",
+          "Consegnato"
+        ],
+        [
+          "Eli Rivo",
+          "Residenza",
+          "09/04/2025",
+          "Sportello",
+          "Da preparare"
+        ],
+        [
+          "Sira Lume",
+          "Stato di famiglia",
+          "08/04/2025",
+          "Posta elettronica",
+          "Consegnato"
+        ]
+      ],
+      "form": [
+        "Richiedente",
+        "Tipo di certificato",
+        "Data richiesta",
+        "Canale",
+        "Stato"
+      ]
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una richiesta con i dati minimi necessari per avviarne la gestione.",
+      "metrics": [],
+      "columns": [
+        "Richiedente",
+        "Tipo di certificato",
+        "Data richiesta",
+        "Canale",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Richiedente",
+        "Tipo di certificato",
+        "Data richiesta",
+        "Canale",
+        "Stato"
+      ]
+    }
+  ]
+}
